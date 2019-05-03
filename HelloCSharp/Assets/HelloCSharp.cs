@@ -30,7 +30,16 @@ public class HelloCSharp : MonoBehaviour
             Debug.Log("나는 여자다");
         }
 
-        Debug.Log(height);
+        isBoy = false;
+
+        if(isBoy == true)
+        {
+            Debug.Log("나는 남자다");
+        }
+        else
+        {
+            Debug.Log("나는 여자다");
+        }
             
     }
 
