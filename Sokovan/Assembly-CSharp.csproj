@@ -56,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Player.cs" />
+     <Compile Include="Assets\Rotator.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Volumes/Mark1/Unity_Project/Sokovan/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
