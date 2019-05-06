@@ -55,6 +55,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\GameManager.cs" />
+     <Compile Include="Assets\ItemBox.cs" />
      <Compile Include="Assets\Player.cs" />
      <Compile Include="Assets\Rotator.cs" />
  <Reference Include="Unity.Timeline.Editor">

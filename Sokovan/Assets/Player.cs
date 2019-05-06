@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-
+    public GameManager gameManager;
     public float speed = 10f;
     private Rigidbody playerRigidbody; // it's private to prevent any differences
 
@@ -18,6 +18,10 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {   
+        if (gameManager.isGameOver == true)
+        {
+            return;
+        }
         // A <-            -> D
         // -1.0      0     +1.0
         

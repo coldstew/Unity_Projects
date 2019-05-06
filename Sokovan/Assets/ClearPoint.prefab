@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 410538328}
   m_Layer: 0
   m_Name: ClearPoint
-  m_TagString: Untagged
+  m_TagString: ClearPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -104,4 +104,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6626a7564621f405ebd16156650cdb64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myTransform: {fileID: 2331005164232116449}
